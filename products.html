@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Products | Youth Hub — Trendy. Affordable. Authentically You.</title>
+    <meta name="description" content="Shop the latest T-shirts, jeans, hoodies, kurtis and sneakers at Youth Hub — your go-to destination for campus fashion.">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+      <nav> 
+        <div class="logo">
+          <h3><a href="merlin.html" class="logo-name">Youth Hub</a></h3>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html" id="login">Login</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    <!-- navbar -->
+
+      <h2 class="main-head-of-products">Everyone Has A Style Statement<br>
+        <span class="colored-word-bigger-size">FIND YOURS HERE!</span>
+      </h2>
+
+      <br>
+      <div class="bg-images">
+        <a href="products.html"><img src="images/products-img/marcus-loke-xXJ6utyoSw0-unsplash (1).jpg" alt="Product banner"></a>
+      </div>
+
+      <center><p class="msg-ps">
+        Browse through our latest collections — click any product to add it to your shopping list.
+      </p></center>
+
+      <div>
+        <h1>For <span class="colored-word">Her</span></h1>
+        <center><hr class="products-hr"></center>
+        <br><br>
+
+        <div class="kurti">
+          <img src="images/products-img/women/kurti1.png" id="Kurti — ₹1799" onclick="add(this.id)">
+          <img src="images/products-img/women/kurti2.png" id="Kurti — ₹1649" onclick="add(this.id)">
+          <img src="images/products-img/women/kurti3.png" id="Kurti — ₹659" onclick="add(this.id)">
+          <img src="images/products-img/women/kurti4.png" id="Kurti — ₹1990" onclick="add(this.id)">
+        </div> 
+
+        <div class="western">
+          <img src="images/products-img/women/western1.png"  id="Casual Top — ₹549" onclick="add(this.id)">
+          <img src="images/products-img/women/western2.png"  id="Solid Top — ₹554" onclick="add(this.id)">
+          <img src="images/products-img/women/western3.png"  id="A-Line Top — ₹549" onclick="add(this.id)">
+          <img src="images/products-img/women/western4.png"  id="Ruffled Top — ₹549" onclick="add(this.id)">
+        </div>
+
+        <div class="g-shoes">
+          <img src="images/products-img/women/g-shoe1.png"  id="Sneakers — ₹6999" onclick="add(this.id)">
+          <img src="images/products-img/women/g-shoe2.png"  id="Running Shoes — ₹11899" onclick="add(this.id)">
+          <img src="images/products-img/women/g-shoe3.png"  id="Casual Trainers — ₹1549" onclick="add(this.id)">
+          <img src="images/products-img/women/g-shoe4.png"  id="GoRun — ₹3249" onclick="add(this.id)">
+        </div>
+
+        <h1>For <span class="colored-word">Him</span></h1>
+        <center><hr class="products-hr"></center>
+        <br><br>
+
+        <div class="shirts">
+          <img src="images/products-img/men/shirt1.png"  id="Printed Shirt — ₹449" onclick="add(this.id)">
+          <img src="images/products-img/men/shirt2.png"  id="Round Neck T-shirt — ₹486" onclick="add(this.id)">
+          <img src="images/products-img/men/shirt3.png"  id="Colourblocked T-shirt — ₹404" onclick="add(this.id)">
+          <img src="images/products-img/men/shirt4.png"  id="Shoulder Patch T-shirt — ₹519" onclick="add(this.id)">
+        </div>
+
+        <div class="jeans">
+          <img src="images/products-img/men/jeans1.png"  id="Slim Fit Jeans — ₹874" onclick="add(this.id)">
+          <img src="images/products-img/men/jeans2.png"  id="Super Skinny Jeans — ₹1199" onclick="add(this.id)">
+          <img src="images/products-img/men/jeans3.png"  id="Slim Straight Jeans — ₹9599" onclick="add(this.id)">
+          <img src="images/products-img/men/jeans4.png"  id="Slim Fit Jeans — ₹999" onclick="add(this.id)">
+        </div>
+
+        <div class="shoes">
+          <img src="images/products-img/men/shoe1.png"  id="Clasp Sneakers — ₹1304" onclick="add(this.id)">
+          <img src="images/products-img/men/shoe2.png"  id="Levis Sneakers — ₹1169" onclick="add(this.id)">
+          <img src="images/products-img/men/shoe3.png"  id="Casual Sneakers — ₹679" onclick="add(this.id)">
+          <img src="images/products-img/men/shoe4.png"  id="Pro Sneakers — ₹1699" onclick="add(this.id)">
+        </div><br>
+
+        <h4 class="sry-msg">That’s all for now — more styles coming soon!</h4>
+        <center><hr class="last-hr-of-product"></center>
+        <br><br>
+
+        <div class="cart-details">
+          <h2 class="head-of-cart">Your Shopping List</h2>
+            <hr class="hr-of-cart-head">
+            <br>
+          <ul id="ul_pr">
+            <!-- JS will add items here -->
+          </ul>
+        <button class="btn-clear-list" onclick="emptyList()"> <span class="colored-word"> Clear My List</span></button> <br>
+          <small>Your cart saves locally on your device.</small>
+        </div>
+        <br><br><br>
+      </div>
+      
+    <p class="copy-right">© 2025 Youth Hub | Designed & Developed by Haseeb Ali & Maasir Ahmad</p>
+    <script src="js/nav.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>
